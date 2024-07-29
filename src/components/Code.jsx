@@ -24,27 +24,19 @@ function Code(props) {
   return (
     <div className={`m-1 ${open?'grow-0':'grow'}`}>
     <div className='h-[40vh]'>
-        <div className='flex justify-between h-[4vh]'>
+        <div className='flex justify-between h-[5vh]'>
            <div className='flex p-2 bg-black'>
             <div className={'w-6 flex justify-center items-center rounded-md '+ props.iconColor}>
                 {props.iconText}
             </div>
             <div className='text-white ml-2'>{props.title}</div>
            </div>
-           <div className='flex'>
-            <div className='bg-black w-6 m-[6px] flex justify-center'>
-           <div className='text-white flex items-center'>
-           <IoIosSettings/>
-           </div>
-            </div>
-            <div className='bg-black w-6 m-[6px] flex justify-center'>
+            <div className='bg-black w-8 m-[6px] flex justify-center'>
             <div className='text-white flex items-center' onClick={()=>{
                 setOpen(!open);
-              //  console.log("clicked ahaha");
             }}>
             <CgMinimizeAlt />
                 </div>
-            </div>
            </div>
         </div>
         <div >
