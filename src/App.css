@@ -1,0 +1,13 @@
+.CodeMirror {
+  height: 35vh !important;
+}
+
+.CodeMirror-gutters{
+  background: black !important;  
+  /* border: 100px !important; */
+}
+
+.CodeMirror-scroll{
+    background: black;  
+    overflow: auto;
+  }
