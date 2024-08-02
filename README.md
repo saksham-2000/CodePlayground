@@ -6,4 +6,5 @@
 - try implementing autocomplete?
 - add github logo pointing to the repo link
 - test js functionality
-- add dockerFile 
+- add dockerFile
+- clean code
