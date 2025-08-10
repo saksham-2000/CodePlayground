@@ -4,7 +4,7 @@ import { formatAll } from '../utils/format';
 
 
 const DEFAULTS = {
-html: `<!doctype html>\n<html>\n <head>\n <meta charset=\"utf-8\" />\n <title>Playground</title>\n </head>\n <body>\n <h1>Hello, Recruiter</h1>\n <button id=\"btn\">View Resume</button>\n </body>\n</html>`,
+html: `<!doctype html>\n<html>\n <head>\n <meta charset=\"utf-8\" />\n <title>Playground</title>\n </head>\n <body>\n <h1>Hello, Recruiter</h1>\n</body>\n</html>`,
 css: `body { font-family: system-ui, sans-serif; padding: 2rem; }\nh1 { font-size: 2rem; }`,
 javascript: `document.getElementById('btn')?.addEventListener('click', () => {\n console.log('Button clicked!');\n});`,
 };
